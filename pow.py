@@ -1,3 +1,3 @@
-a=int(input())
-b=int(input())
-print(a**b)
+fir=int(input())
+sec=int(input())
+print(fir**sec)
