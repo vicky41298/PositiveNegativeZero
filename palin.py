@@ -1,11 +1,12 @@
 no=int(input())
+t=no
 r=0
 if(no<=1000):
   while(no>0):
     n=no%10
     r=(r*10)+n
     no=no//10
-  if(no==r):
+  if(t==r):
     print("yes")
   else:
     print("no")
