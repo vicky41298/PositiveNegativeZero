@@ -1,7 +1,7 @@
-va=input()
-re=va[::-1]
+te=int(input())
+va=input()[::-1]
 vow=('a','e','i','o','u','A','E','I','O','U')
-for i in re:
+for i in va:
   if i in vow:
-    re=re.replace(i,"")
-print(re)
+    va=va.replace(i,"")
+print(va,end="")
