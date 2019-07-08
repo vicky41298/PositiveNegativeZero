@@ -1,10 +1,10 @@
 import itertools
-xi=input()
-li=""
-ana = itertools.permutations(xi,5)
+xii=input()
+lii=""
+ana = itertools.permutations(xii,5)
 for k in ana: 
-  li=''.join(k)
-if li == "dhoni":
+  lii=''.join(k)
+if lii == "dhoni":
   print("yes") 
 else:
   print("no") 
