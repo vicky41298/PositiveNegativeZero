@@ -1,7 +1,7 @@
 import itertools
-xii=input()
+te=input()
 lii=""
-ana = itertools.permutations(xii,5)
+ana = itertools.permutations(te,5)
 for k in ana: 
   lii=''.join(k)
 if lii == "dhoni":
